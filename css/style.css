@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+body{
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    background: repeating-linear-gradient(
+        -45deg,
+        red 0%,
+        yellow 7.14%,
+        rgb(0,255,0) 14.28%,
+        rgb(0,255,255) 21.4%,
+        cyan 28.56%,
+        blue 35.7%,
+        magenta 42.84%,
+        red 50%
+    );
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    animation: slide 8s linear infinite forwards;
+}
+/*.container-fluid{
+    height: 100%;
+    overflow: hidden;
+}
+.minHeight{
+    overflow-y: auto;
+    height: calc(100%);
+}*/
